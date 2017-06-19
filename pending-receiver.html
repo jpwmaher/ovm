@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Landing Portal - navigation prototype</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="row" id="masthead-nav">
+      <div class="large-1 medium-2 columns">
+        <img class="logo" src="http://ec2-52-212-118-81.eu-west-1.compute.amazonaws.com/static/nhs-digital-logo.png"> 
+      </div>
+      <div class="large-1 medium-2 columns">
+        <span class="dlp-name">Data<br/>Landing<br/>Portal</span>
+      </div>
+      <div class="large-9 medium-7 columns">
+        <ul id="masthead-nav-links">
+            <li class="masthead-li"><a href="index-receiver.html">Received</a></li>  
+            <li class="masthead-li masthead-li-current"><a href="specifications-receiver.html"><span class="current">Specifications <span class="badge alert">3</span></span></a></li>  
+        </ul>
+      </div>
+      <div class="large-1 medium-1 columns">
+        <span style="font-size: 12px;"><a href="index.html">Provider</a><br/><a href="index-receiver.html" class="current">Receiver</a><br/><a href="index-manager.html">Designer</a></span>
+      </div>
+    </div>
+
+    <div id="tabbies" class="row collapse">
+      <div class="large-6 medium-6 columns">
+          <a href="specifications-receiver.html" class="button tabby tabby-inactive">All specifications</a>
+      </div>
+      <div class="large-6 medium-6 columns">
+          <a href="pending-receiver.html"><span class="button button tabby tabby-active" style="width: 100%;">Pending (3)</span></a> 
+      </div>
+    </div>
+     
+    <div id="main-content" class="row">
+        <div class="large-11 large-centered medium-centered medium-12 columns"> 
+            <h4><strong>Pending specifications</strong></h4></br></br>
+            <div class="row">
+    <table class="table" id="specificationTable">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Creator Org</th>
+				<th>Designer</th>
+				<th>Created</th>
+				<th>Data Type</th>
+				<th>Columns</th>
+				<th>Sender</th>
+				<th>Recipient</th>
+				<th>Receiver approval</th>
+                <th>Provider approval</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="status"><a href="#">NDSD-108</a></td>
+				<td id="createdBy"><span title="ORG2 HEALTH AND CARE NHS TRUST">ORG3</span></td>
+				<td id="author">Skyler</td>
+				<td id="created"><span title="04/08/2016 at 00:00">04/08/2016</span></td>
+				<td id="dataType">Ambulance</td>
+				<td id="noOfCols">3</td>
+				<td id="senderOrg"><span title="ORG1 HEALTH AND CARE NHS TRUST">ORG1</span></td>
+				<td id="recipientOrg"><span title="organisation 3">ORG3</span></td>
+				<td id="lastUsed" class="centered-content"><a href="#" class="button">Review</a></td>
+                <td id="lastUsed" class="centered-content"><img title="Approved by Skyler 10:38 on 17/04/17" alt="Approved by Skyler 10:38 on 17/04/17" src="tick.png" style="width: 20px;"></td>
+			</tr>
+            <tr>
+				<td id="status"><a href="#">NDSD-112</a></td>
+				<td id="createdBy"><span title="ORG2 HEALTH AND CARE NHS TRUST">ORG2</span></td>
+				<td id="author">Barry</td>
+				<td id="created"><span title="04/08/2016 at 00:00">04/05/2017</span></td>
+				<td id="dataType">Community</td>
+				<td id="noOfCols">3</td>
+				<td id="senderOrg"><span title="ORG17 HEALTH AND CARE NHS TRUST">ORG17</span></td>
+				<td id="recipientOrg"><span title="organisation 3">ORG3</span></td>
+				<td id="lastUsed" class="centered-content"><a class="button">Review</a></td>
+                <td id="lastUsed" class="centered-content"><img src="tick.png" title="Approved by Skyler 10:38 on 17/04/17" alt="Approved by Skyler 10:38 on 17/04/17"  style="width: 20px;"></td>
+			</tr>
+            <tr>
+				<td id="status"><a href="#">NDSD-118</a></td>
+				<td id="createdBy"><span title="ORG2 HEALTH AND CARE NHS TRUST">ORG3</span></td>
+				<td id="author">Skyler</td>
+				<td id="created"><span title="04/08/2016 at 00:00">04/08/2016</span></td>
+				<td id="dataType">Ambulance</td>
+				<td id="noOfCols">3</td>
+				<td id="senderOrg"><span title="ORG1 HEALTH AND CARE NHS TRUST">ORG1</span></td>
+				<td id="recipientOrg"><span title="organisation 3">ORG3</span></td>
+				<td id="lastUsed" class="centered-content"><a class="button">Review</a></td>
+                <td id="lastUsed" class="centered-content"><img title="Awaiting response" alt="Awaiting response" src="question-mark.png" style="width: 20px;"></td>
+			</tr>
+            <tr>
+				<td id="status"><a href="#">NDSD-119</a></td>
+				<td id="createdBy"><span title="ORG2 HEALTH AND CARE NHS TRUST">ORG2</span></td>
+				<td id="author">Barry</td>
+				<td id="created"><span title="04/08/2016 at 00:00">04/05/2017</span></td>
+				<td id="dataType">Mental health</td>
+				<td id="noOfCols">3</td>
+				<td id="senderOrg"><span title="ORG17 HEALTH AND CARE NHS TRUST">ORG17</span></td>
+				<td id="recipientOrg"><span title="organisation 3">ORG3</span></td>
+				<td id="lastUsed" class="centered-content"><img title="Approved by You 10:38 on 17/04/17" alt="Approved by You 10:38 on 17/04/17" src="tick.png" style="width: 20px;"></td>
+                <td id="lastUsed" class="centered-content"><img title="Awaiting response" alt="Awaiting response" src="question-mark.png" style="width: 20px;"></td>
+			</tr>
+		</tbody>
+	</table>
+            </div>  
+        </div>
+    </div>   
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
