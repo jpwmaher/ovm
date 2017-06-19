@@ -1,0 +1,147 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLP - Spec management prototype</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="row" id="masthead-nav">
+      <div class="large-1 medium-2 columns">
+        <img class="logo" src="http://ec2-52-212-118-81.eu-west-1.compute.amazonaws.com/static/nhs-digital-logo.png"> 
+      </div>
+      <div class="large-1 medium-2 columns">
+        <span class="dlp-name">Data<br/>Landing<br/>Portal</span>
+      </div>
+      <div class="large-9 medium-7 columns">
+        <ul id="masthead-nav-links">
+            <li class="masthead-li"><a href="index.html">Submissions</a></li>  
+            <li class="masthead-li"><a href="specifications.html" class="current">Specifications <span class="badge alert">1</span> </a></li> 
+        </ul>
+      </div>
+      <div class="large-1 medium-1 columns">
+        <span style="font-size: 12px;"><a href="index.html" class="current">Provider</a><br/><a href="index-receiver.html">Receiver</a><br/><a href="index-manager.html">Designer</a></span>
+      </div>
+    </div>
+      
+   <!-- <div id="tabbies" class="row collapse">
+      <div class="large-6 medium-6 columns">
+          <a href="specifications.html" class="button tabby tabby-inactive">All specifications</a>
+      </div>
+      <div class="large-6 medium-6 columns">
+          <a href="pending-provider.html"><span class="button button tabby tabby-active" style="width: 100%;">Pending (3)</span></a>
+      </div>
+    </div>  -->
+    
+    <div id="main-content" class="row">
+            <div id="third-level" class="row collapse">
+        <ul id="third-level-links">
+            <li class="third-level-li"></li> 
+        </ul>
+    </div> 
+
+        <div class="large-12 large-centered medium-centered medium-12 columns"> 
+           
+            <a href="specifications-2.html" style="font-size: 80%;">< &nbsp; back to Specifications</a>
+                <br/><br/><hr><br/><h3><strong>NDSD-112</strong></h3></br></br>
+
+            <div class="row">
+                <h4>Summary</h4>
+                <table class="table" id="specificationTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Designer org</th>
+                            <th>Designer</th>
+                            <th>Created</th>
+                            <th>Data Type</th>
+                            <th>Columns</th>
+                            <th>Sender</th>
+                            <th>Recipient</th>
+                            <th>Provider approval</th>
+                            <th>Receiver approval</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="status">NDSD-108</td>
+                            <td id="createdBy"><span title="ORG2 HEALTH AND CARE NHS TRUST">ORG3</span></td>
+                            <td id="author">Skyler</td>
+                            <td id="created"><span title="04/08/2016 at 00:00">04/08/2016</span></td>
+                            <td id="dataType">Ambulance</td>
+                            <td id="noOfCols">3</td>
+                            <td id="senderOrg"><span title="ORG1 HEALTH AND CARE NHS TRUST">ORG1</span></td>
+                            <td id="recipientOrg"><span title="organisation 3">ORG3</span></td>
+                            <td id="lastUsed" class="centered-content"><img src="question-mark.png" style="width: 20px;"></td>
+                            <td id="lastUsed" class="centered-content"><img src="question-mark.png" style="width: 20px;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </div>
+        
+            <div class="row collapse">
+        
+            <h4 style="margin-top:20px;">Column Mappings</h4>
+                <table class="table" id="specContentTable">
+                    <thead>
+                        <tr>
+                            <th>Column Header</th>
+                            <th>Maps To</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="row0">
+                            <td id="headerName0">column1</td>
+                            <td id="columnName0">Non-Patient Confidential Data</td>
+                        </tr>
+                        <tr id="row1">
+                            <td id="headerName1">column2</td>
+                            <td id="columnName1">Non-Patient Confidential Data</td>
+                        </tr>
+                        <tr id="row2">
+                            <td id="headerName2">column3</td>
+                            <td id="columnName2">Non-Patient Confidential Data</td>
+                        </tr>
+                    </tbody>
+                </table><br/><br/><br/>
+                
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+                <h4>Comment</h4>
+            </div>
+            <div class="row">
+                <p>Here's where the comment added by the Designer is shown, to both Provider and Receiver.<br/><br/></p>
+
+            </div>
+            <div class="row">
+                <h4>Specification history</h4>
+            </div>
+            <div class="row">
+                <ul class="small-list">
+                    <li>Draft created by [Designer name] of [designer-org] at [spec-draft-creation-time]</li>
+                    <li>Draft submitted for review by [Designer name] of [designer-org] at [spec-submission-time]</li>
+                </ul></span>
+            </div>
+
+      
+            <div class="row" style="margin:20px 0px;">
+                                    <a href="pending-provider-3.html" class="button">Accept</a>&nbsp;<a href="rejected-spec-provider.html" class="alert button">Reject</a>&nbsp;<br/></br><a href="accepted-spec-provider.html" class="button hollow">Download template</a>    &nbsp;<br/></br><a href="#" class="button hollow">Test specification</a>    
+            </div>  
+        </div>
+    </div>
+
+    <div class="row collapse">
+        &nbsp;
+    </div>
+      
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
